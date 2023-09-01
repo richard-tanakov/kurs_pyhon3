@@ -1,17 +1,18 @@
-# richard-tanakov-stepik_developer_python
+HTML5!
+<div id="header" align="center">
 
-Задачи на программирование с курса на Stepik.
+<h1>Задачи на программирование с курса на Stepik.</h1>
 
-Называется Python Разработчик.  (Сылка на курс: https://stepik.org/course/122813/syllabushttps://stepik.org/course/122813/syllabus )
+<h2> Python Разработчик.  <a href= "https://stepik.org/course/122813/syllabushttps://stepik.org/course/122813/syllabus" "_blank" > ссылка на курса </h2>
 
 
 Начну выкладывать свои варианты решения. Буду прописывать задачи в этом файле, также и в самих скриптах.
 
 
 
-                       <h1> Арифметические действия.</h1>
+                      Арифметические действия.
 
-                       <h2> Целые числа.</h2>
+                      Целые числа.
 
 
 Название файла с решением: output_the_formula.py
