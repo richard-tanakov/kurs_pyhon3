@@ -3,10 +3,10 @@ HTML5!
 
 <h1>Задачи на программирование с курса на Stepik.</h1>
 
-<h2> Python Разработчик.  <a href= "https://stepik.org/course/122813/syllabushttps://stepik.org/course/122813/syllabus" "_blank" > ссылка на курса </h2> </div>
+<h2> Python Разработчик.  <a href= "hhttps://stepik.org/course/122813/syllabus" "_blank" > ссылка на курса </h2> </div>
 
 <div id = "Content">
-<h2> <a href = div id "Arithmetic"> Арифметические действия </h2>
+<h2> <a href #"Arithmetic"> Арифметические действия </h2>
                       
                       
                       
