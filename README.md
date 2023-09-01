@@ -3,14 +3,18 @@ HTML5!
 
 <h1>Задачи на программирование с курса на Stepik.</h1>
 
-<h2> Python Разработчик.  <a href= "https://stepik.org/course/122813/syllabushttps://stepik.org/course/122813/syllabus" "_blank" > ссылка на курса </h2>
+<h2> Python Разработчик.  <a href= "https://stepik.org/course/122813/syllabushttps://stepik.org/course/122813/syllabus" "_blank" > ссылка на курса </h2> </div>
 
-
-Начну выкладывать свои варианты решения. Буду прописывать задачи в этом файле, также и в самих скриптах.
-
-
-
-                      Арифметические действия.
+<div id = "Content">
+<h2> <a href = div id "Arithmetic"> Арифметические действия </h2>
+                      
+                      
+                      
+                      
+                      
+                      
+<div id = "Arithmetic">                      
+                  <h3>Арифметические действия. </h3>
 
                       Целые числа.
 
