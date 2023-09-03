@@ -4,8 +4,8 @@
 import math
 
 
-num1,num2,num3= float(input()),float(input()),float(input())
+num1, num2, num3 = float(input()), float(input()), float(input())
 
-up_equations=((num1**3)+(math.sqrt(num2)))
+up_equations = (num1**3) + (math.sqrt(num2))
 
-print(up_equations/num3)                
+print(up_equations / num3)

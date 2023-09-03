@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "ms-ceintl.vscode-language-pack-ru"
+        "ms-ceintl.vscode-language-pack-ru",
+        "mikoz.black-py"
     ]
 }
