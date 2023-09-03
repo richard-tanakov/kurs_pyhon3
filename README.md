@@ -19,10 +19,10 @@
 1. **Задача.** 
 
    > Напишите программу, которая получает на вход переменные a,b,c и рассчитывает формулу ( a в тепени c + b в стрепени
-    c) в степени ab
+    c) в степени ab. <br>
     Программа должна вывести результат вычислений.
      
-    [Решение](https://github.com/richard-tanakov/richard-tanakov-stepik_developer_python/blob/main/Equation_floating_number.py)
+    [Решение](https://github.com/richard-tanakov/richard-tanakov-stepik_developer_python/blob/main/output_the_formula.py)
     
     2) Задача на программирование.
 
