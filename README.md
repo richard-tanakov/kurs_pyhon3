@@ -18,7 +18,7 @@
 
    > Задача. 
 
-  ![Задача](image.png)
+  ![Вычеслить формулу.](https://disk.yandex.com.am/client/disk/developer_python?idApp=client&dialog=slider&idDialog=%2Fdisk%2Fdeveloper_python%2Fform_1.jpg)
      
     [Решение](https://github.com/richard-tanakov/richard-tanakov-stepik_developer_python/blob/main/output_the_formula.py)
     
