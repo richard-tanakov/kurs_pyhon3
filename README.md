@@ -153,9 +153,9 @@
     Решение: Cost_optimization.py
 
      
-    Задача модуль Demical 
+   >Задача модуль Demical 
 
-     ![Задача](https://s346iva.storage.yandex.net/rdisk/a19867c7f07aaa9d05c9203edd2e312dd212e0027130af8a2555fb90d9338f17/64f492dd/Ncg5XzT7AUIUbCgIkd4jfFKxZWyhLeTWTn9-m6qWraB_jdWPMg32N3c7OFAlDw-4jsxiUmnkRJqH5QDI_2hyTA==?uid=1440540990&filename=Demical.png&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1440540990&fsize=29790&hid=52cd4b294aa9714e83b0815359f696ba&media_type=image&tknv=v2&etag=d280170142a7d4aad5a95e6edd8a394a&rtoken=ie3oer2Q3R7c&force_default=yes&ycrid=na-08ece2394d051409a3710fe7f5437d3e-downloader5h&ts=60474e5f4b140&s=f0ed881aebfa61666fcfe03f285b84dca5639c165c4b07d3e5929928c1daf6d9&pb=U2FsdGVkX18KdoJIjafZ-_kdfo89dVzsb3iepRwFZv29Kr_jbXepfdVGHzmzPVbwbnX26HcHAixEYQJCZBG3hO_xIgKY3aeF4rnRs4LZZUo)    
+   ![Задача](https://s346iva.storage.yandex.net/rdisk/a19867c7f07aaa9d05c9203edd2e312dd212e0027130af8a2555fb90d9338f17/64f492dd/Ncg5XzT7AUIUbCgIkd4jfFKxZWyhLeTWTn9-m6qWraB_jdWPMg32N3c7OFAlDw-4jsxiUmnkRJqH5QDI_2hyTA==?uid=1440540990&filename=Demical.png&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1440540990&fsize=29790&hid=52cd4b294aa9714e83b0815359f696ba&media_type=image&tknv=v2&etag=d280170142a7d4aad5a95e6edd8a394a&rtoken=ie3oer2Q3R7c&force_default=yes&ycrid=na-08ece2394d051409a3710fe7f5437d3e-downloader5h&ts=60474e5f4b140&s=f0ed881aebfa61666fcfe03f285b84dca5639c165c4b07d3e5929928c1daf6d9&pb=U2FsdGVkX18KdoJIjafZ-_kdfo89dVzsb3iepRwFZv29Kr_jbXepfdVGHzmzPVbwbnX26HcHAixEYQJCZBG3hO_xIgKY3aeF4rnRs4LZZUo)    
 
 
-    [Решение.](https://github.com/richard-tanakov/richard-tanakov-stepik_developer_python/blob/main/decimal_calculate_formula.py) 
+   [Решение.](https://github.com/richard-tanakov/richard-tanakov-stepik_developer_python/blob/main/decimal_calculate_formula.py) 
