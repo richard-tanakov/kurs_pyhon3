@@ -17,7 +17,7 @@
    
    #### *Целые числа*
 
-  ![Задача.] (https://disk.yandex.com.am/client/disk/developer_python?idApp=client&dialog=slider&idDialog=%2Fdisk%2Fdeveloper_python%2Fimage_2023-09-06_10-26-48.png)
+  ![Задача.](https://disk.yandex.com.am/client/disk/developer_python?idApp=client&dialog=slider&idDialog=%2Fdisk%2Fdeveloper_python%2Fimage_2023-09-06_10-26-48.png)
      
    [Решение](https://github.com/richard-tanakov/richard-tanakov-stepik_developer_python/blob/main/output_the_formula.py)
     
