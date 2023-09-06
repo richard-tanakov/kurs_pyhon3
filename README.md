@@ -19,7 +19,7 @@
 
    > Задача. 
 
-  ![Задача.] (https://disk.yandex.com.am/client/disk/developer_python?idApp=client&dialog=slider&idDialog=%2Fdisk%2Fdeveloper_python%2Fphoto_2023-09-06_09-59-46.png)
+  ![Задача.] (https://disk.yandex.com.am/client/disk/developer_python?idApp=client&dialog=slider&idDialog=%2Fdisk%2Fdeveloper_python%2Fimage_2023-09-06_10-26-48.png)
      
    [Решение](https://github.com/richard-tanakov/richard-tanakov-stepik_developer_python/blob/main/output_the_formula.py)
     
@@ -105,7 +105,7 @@
 
 #### *Числа с плавующей точкой*
 
-![Задача](https://disk.yandex.com.am/client/disk/developer_python?idApp=client&dialog=slider&idDialog=%2Fdisk%2Fdeveloper_python%2Fphoto_2023-09-06_10-11-44.png)
+![Задача](https://disk.yandex.com.am/client/disk/developer_python?idApp=client&dialog=slider&idDialog=%2Fdisk%2Fdeveloper_python%2Fimage_2023-09-06_10-27-42.png)
 
 
 [Решение](https://github.com/richard-tanakov/richard-tanakov-stepik_developer_python/blob/main/Equation_floating_number.py)
