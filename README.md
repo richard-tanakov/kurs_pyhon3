@@ -9,7 +9,7 @@
 
    [Числа с плавующей точкой](#Числа-с-плавующей-точкой)     
    
-   
+   [Битовые операции](#битовые-операции)   
    
    
    
@@ -19,7 +19,7 @@
 
   ![Задача.](https://disk.yandex.com.am/client/disk/developer_python?idApp=client&dialog=slider&idDialog=%2Fdisk%2Fdeveloper_python%2Fimage_2023-09-06_10-26-48.png)
      
-   [Решение](https://github.com/richard-tanakov/richard-tanakov-stepik_developer_python/blob/main/output_the_formula.py)
+   [Решение](/int/output_the_formula.py)
     
    > Задача:
 
@@ -32,7 +32,7 @@
          Ваша программа принимает одну переменную m – количество минут, которое пользователь провел на сайте. Вам нужно
          определить сколько в этих минутах часов и оставшихся минут. 
 
-   [Решение](https://github.com/richard-tanakov/richard-tanakov-stepik_developer_python/blob/main/Time_on_the_site.py) 
+   [Решение](/int/Time_on_the_site.py) 
 
    > Задача:
 
@@ -46,7 +46,7 @@
          start_mins – время в минутах, когда пользователь зашел на сайт
          Программа должна вывести через пробел количество часов и минут, когда пользователь закрыл сайт
 
-   [Решение.](https://github.com/richard-tanakov/richard-tanakov-stepik_developer_python/blob/main/Exit_time.py)
+   [Решение.](/int/Exit_time.py)
 
    
 
@@ -66,7 +66,7 @@
          В качестве результата программа должна вывести через пробел количество часов, минут и секунд, которые человек провел
          на сайте.
 
-   [Решение.](https://github.com/richard-tanakov/richard-tanakov-stepik_developer_python/blob/main/Average_time_site.py) 
+   [Решение.](/int/Average_time_site.py) 
 
    >Задача.
 
@@ -97,7 +97,7 @@
 
          Вам нужно вывести долг банку на каждый год трехлетнего кредита. Каждое число нужно вывести в новой строке.
 
-   [Решение](https://github.com/richard-tanakov/richard-tanakov-stepik_developer_python/blob/main/Debt_calculatio.py)
+   [Решение](/int/Debt_calculatio.py)
 
 
 
@@ -106,7 +106,7 @@
 ![Задача](https://disk.yandex.com.am/client/disk/developer_python?idApp=client&dialog=slider&idDialog=%2Fdisk%2Fdeveloper_python%2Fimage_2023-09-06_10-27-42.png)
 
 
-[Решение](https://github.com/richard-tanakov/richard-tanakov-stepik_developer_python/blob/main/Equation_floating_number.py)
+[Решение](/float/Equation_floating_number.py/Equation_floating_number.py)
 
 
 
@@ -115,7 +115,7 @@
 
             Дано дробное число x. Выведите вторую цифру после точки.
 
-[Решение]( https://github.com/richard-tanakov/richard-tanakov-stepik_developer_python/blob/main/The_second_number.py)
+[Решение](/float/The_second_number.py)
 
     
       >Задача:
@@ -144,19 +144,95 @@
             Досуг: 10 руб. 11 коп.
             Накопления: 50 руб. 3 коп.
 
-[Решение](https://github.com/richard-tanakov/richard-tanakov-stepik_developer_python/blob/main/Cost_optimization.py)
+[Решение](/float/Cost_optimization.py)
 
      
-   >Задача модуль Demical 
+
+
+
+      >Задача модуль Demical 
 
    ![Задача](https://s346iva.storage.yandex.net/rdisk/a19867c7f07aaa9d05c9203edd2e312dd212e0027130af8a2555fb90d9338f17/64f492dd/Ncg5XzT7AUIUbCgIkd4jfFKxZWyhLeTWTn9-m6qWraB_jdWPMg32N3c7OFAlDw-4jsxiUmnkRJqH5QDI_2hyTA==?uid=1440540990&filename=Demical.png&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1440540990&fsize=29790&hid=52cd4b294aa9714e83b0815359f696ba&media_type=image&tknv=v2&etag=d280170142a7d4aad5a95e6edd8a394a&rtoken=ie3oer2Q3R7c&force_default=yes&ycrid=na-08ece2394d051409a3710fe7f5437d3e-downloader5h&ts=60474e5f4b140&s=f0ed881aebfa61666fcfe03f285b84dca5639c165c4b07d3e5929928c1daf6d9&pb=U2FsdGVkX18KdoJIjafZ-_kdfo89dVzsb3iepRwFZv29Kr_jbXepfdVGHzmzPVbwbnX26HcHAixEYQJCZBG3hO_xIgKY3aeF4rnRs4LZZUo)    
 
 
-   [Решение.](https://github.com/richard-tanakov/richard-tanakov-stepik_developer_python/blob/main/decimal_calculate_formula.py) 
+   [Решение.](/float/decimal_calculate_formula.py) 
 
-   > Задача.
-      Вам требуется подобрать коробку, для вашего товара. Известно, что ширина, высота и глубина коробки – целые числа.
 
-      Вашей программе даются на вход 3 числа с плавающей точкой – ширина, высота и глубина товара. Вам требуется подобрать для этого товара коробку. Выведите ширину, высоту и глубину коробки.
 
-   [Решение](/Select_box_size.py)
+
+
+      > Задача.
+
+            Вам требуется подобрать коробку, для вашего товара. Известно, что ширина, высота и глубина коробки – целые числа.
+             Вашей программе даются на вход 3 числа с плавающей точкой – ширина, высота и глубина товара. Вам требуется подобрать для этого товара коробку. Выведите ширину, высоту и глубину коробки.
+
+   [Решение](/float/Select_box_size.py)
+
+
+#### Битовые операции.
+    
+
+      > Задача.
+            Напишите программу, которая переведет десятичное число, которое дается на вход вашей программе, в 2, 8 и 16 системы счисления. В качестве ответа выведите представление числа в этих системах счисления.
+
+            >>
+            2-bin
+            8-oct
+            16-hex
+
+
+   [Решение](/Bit_operations/Numeral_systems.py)
+
+      >Задача.
+
+
+           Напишите программу, которая получает на вход число, представленное в 6-чной системе счисления и переводит его в 16-чную систему. Ваша программа должна вывести результат в 16-чной системе.
+
+[Решение](/Bit_operations/numbe_translation_from6.py)
+
+
+
+      >Задача. 
+
+            Если присмотреться к 8-ной системе счисления, то можно проследить алгоритм получения восьмеричного числа из десятичного. Сможете ли вы его найти и перевести число из 10-ной системы в 8-ную без использования функции oct?
+
+            Ваша программа принимает на вход 10-ное число в интервале от 8 до 63 включительно. Напишите программу, которая переводит число из 10-ной системы в 8-ную систему счисления без использования oct. Программа должна вывести число в восьмеричном представлении.
+
+[Решение](/Bit_operations/10to8_translation.py)
+      > Задача. 
+      
+            А что если бы вы использовали устройство с объемом памяти в 2 байта. Какое минимальное отрицательное число было бы для него возможно?
+
+[Решение](/Bit_operations/2bit_negative.py)
+    
+
+      >Задача.
+
+            Ваша программа принимает натуральное число n – количество байт запоминающего устройства, которое может обрабатывать целые числа. Выведите через пробел минимальное и максимальное число, которое оно способно обработать
+
+[Решение](/Bit_operations/Minimum_and_maximum.py) 
+
+
+
+      >Задача. 
+
+            А сколько памяти в байтах занимает объект типа float?
+
+
+[Решение](/Bit_operations/pomati_object.py)
+
+
+
+      >Задача.
+
+          Вычислите выражение:
+           x=13<<2>>1
+
+[Решение](./Bit_operations/formula.py)
+
+      >Задача.
+         Вам удалось получить ключ шифрования злоумышленника, и вы знаете что был применен алгоритм шифрования XOR. Расшифруйте зашифрованные сообщения. Программа получает на вход зашифрованное сообщение, нужно расшифровать его с помощью ключа.
+         Ключ – 47
+
+
+[Решение](/Bit_operations/Decryption.py)
