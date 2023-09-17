@@ -103,7 +103,7 @@
 
 #### *Числа с плавующей точкой*
 
-![Задача](https://disk.yandex.com.am/client/disk/developer_python?idApp=client&dialog=slider&idDialog=%2Fdisk%2Fdeveloper_python%2Fimage_2023-09-06_10-27-42.png)
+![Задача](/image/float.jpg)
 
 
 [Решение](/float/Equation_floating_number.py/Equation_floating_number.py)
@@ -152,7 +152,7 @@
 
       >Задача модуль Demical 
 
-   ![Задача](https://s346iva.storage.yandex.net/rdisk/a19867c7f07aaa9d05c9203edd2e312dd212e0027130af8a2555fb90d9338f17/64f492dd/Ncg5XzT7AUIUbCgIkd4jfFKxZWyhLeTWTn9-m6qWraB_jdWPMg32N3c7OFAlDw-4jsxiUmnkRJqH5QDI_2hyTA==?uid=1440540990&filename=Demical.png&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1440540990&fsize=29790&hid=52cd4b294aa9714e83b0815359f696ba&media_type=image&tknv=v2&etag=d280170142a7d4aad5a95e6edd8a394a&rtoken=ie3oer2Q3R7c&force_default=yes&ycrid=na-08ece2394d051409a3710fe7f5437d3e-downloader5h&ts=60474e5f4b140&s=f0ed881aebfa61666fcfe03f285b84dca5639c165c4b07d3e5929928c1daf6d9&pb=U2FsdGVkX18KdoJIjafZ-_kdfo89dVzsb3iepRwFZv29Kr_jbXepfdVGHzmzPVbwbnX26HcHAixEYQJCZBG3hO_xIgKY3aeF4rnRs4LZZUo)    
+   ![Задача](/image/decimal.jpg)    
 
 
    [Решение.](/float/decimal_calculate_formula.py) 
@@ -181,7 +181,7 @@
             16-hex
 
 
-   [Решение](/Bit_operations/Numeral_systems.py)
+[Решение](/Bit_operations/Numeral_systems.py)
 
       >Задача.
 
@@ -240,10 +240,8 @@
 
 #### Условные выражения
 
-      > Задача. 
-        (вставить фото)
-        Ваша программа принимает целое число n. Напишите программу, определяющую что число находится в интервале от 5 включительно до 10 строго или от 101 строго до 200 включительно или иными словами 
-�       n∈[5,10)∪(101,200]. В качестве ответа выведите True если находится и False если не находится.
+![Задача](/image/usl.jpg) 
+        
 
 [Решение](/Conditions_of_expression/Number_interval.py)
 
