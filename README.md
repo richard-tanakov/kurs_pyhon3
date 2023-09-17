@@ -17,7 +17,7 @@
    
    #### *Целые числа*
 
-  ![Задача.](https://disk.yandex.com.am/client/disk/developer_python?idApp=client&dialog=slider&idDialog=%2Fdisk%2Fdeveloper_python%2Fimage_2023-09-06_10-26-48.png)
+  ![Задача.](/image/int1.jpg)
      
    [Решение](/int/output_the_formula.py)
     
