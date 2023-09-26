@@ -1,6 +1,9 @@
-match dialogue:= str(input())
-    case dialogue=='Привет':
+match dialogue:= str(input()):
+    case 'Привет':
         print('Привет!')
-    case dialogue=='Как дела?' 
+    case 'Как дела?': 
         print('Все классно!')    
-    case dialogue=='Пока'
+    case 'Пока':
+        print('До скорой встречи!')
+    case _:
+        print('Прости, я еще не знаю таких фраз :(')
