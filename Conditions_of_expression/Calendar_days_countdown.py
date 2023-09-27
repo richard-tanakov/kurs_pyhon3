@@ -2,7 +2,6 @@
 amount_of_days = int(input())
 
 
-
 def conclusion(day):
     if day == 0:
         print(("пн"))

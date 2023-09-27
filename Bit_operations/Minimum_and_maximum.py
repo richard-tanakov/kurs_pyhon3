@@ -1,6 +1,6 @@
-byte_quantity = int (input())
+byte_quantity = int(input())
 
-minimum_num= ((2**(byte_quantity*8-1))*(-1))
-maximum_num= int((2**(byte_quantity*8)/2))
+minimum_num = (2 ** (byte_quantity * 8 - 1)) * (-1)
+maximum_num = int((2 ** (byte_quantity * 8) / 2))
 
-print(minimum_num, maximum_num-1)
+print(minimum_num, maximum_num - 1)

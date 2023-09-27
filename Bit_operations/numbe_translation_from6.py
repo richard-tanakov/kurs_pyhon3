@@ -1,1 +1,1 @@
-print (hex(int(input(),6)))
+print(hex(int(input(), 6)))

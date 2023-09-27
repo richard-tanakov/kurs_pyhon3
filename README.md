@@ -422,6 +422,14 @@
 
 
 
-![Задача]
+![Задача](./image/photo_2023-09-27_02-27-37.jpg)
 
+
+[Решение](./cycle/FactorialOfTheNumber.py)
+
+
+
+![Задача](./image/2023-09-27_02-51-10.jpg)
+
+[Решение](./cycle/Pyramid-Conclusion.py)
       
