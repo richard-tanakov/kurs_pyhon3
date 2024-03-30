@@ -43,6 +43,9 @@
 
 
 ![Задача.](/image/int1.jpg)
+'''
+      print(H)
+'''
      
 [Решение](/int/output_the_formula.py)
     
