@@ -427,7 +427,7 @@ else:
       логин не должен быть равен паролю.
       В качестве результата работы программы выведите True или False.
 
-[Решение](/Conditions_of_expression/Len_login.py)
+
 
 ```python
 login = input()
@@ -459,22 +459,30 @@ checking_numbers(password, login)
 
       В качестве вывода ваша программа должна выдать результат вычислений.
 
-[Решение](/Conditions_of_expression/Even_Odd.py)
 
 ```python
+num = int(input())
+if num % 2 != 0:
+    print(num - 10)
+else:
+    print(num + 10)
+
 ```
 
-> Задача. 
 
             
       Пользователь вводит два целых числа a и b. Выведите меньшее из них.
 
-[Решение](/Conditions_of_expression/Print_the_smaller_number.py)
 
 ```python
+num1, num2 = int(input()), int(input())
+if num1 > num2:
+    print(num2)
+else:
+    print(num1)
+
 ```
 
-> Задача
 
       Вам нужно написать программу, которая получает на вход целое число n и определяет какой день недели будет через n дней. Отсчет ведется от понедельника.
 
@@ -490,11 +498,38 @@ checking_numbers(password, login)
       Например если на вход пришло n = 10, тогда нужно вывести чт.
 
 ```python
+"тема на if, elif, else"
+amount_of_days = int(input())
+
+
+def conclusion(day):
+    if day == 0:
+        print(("пн"))
+    elif day == 1:
+        print("вт")
+    elif day == 2:
+        print("ср")
+    elif day == 3:
+        print("чт")
+    elif day == 4:
+        print("пт")
+    elif day == 5:
+        print("сб")
+    else:
+        print("вс")
+
+
+if amount_of_days >= 7:
+    day = amount_of_days % 7
+    conclusion(day)
+else:
+    day = amount_of_days
+    conclusion(day)
+
 ```
 
-[Решение](/Conditions_of_expression/Calendar_days_countdown.py)
 
-> Задача
+
 
       Вашему серверу на вход прилетает IP-адрес (v4) клиента. Нужно определить, что IP-адрес – правильный.
 
@@ -509,24 +544,54 @@ checking_numbers(password, login)
       В качестве ответа выведите True если IP-адрес правильный или False если неправильный.
 
 ```python
+n1, n2, n3, n4 = [int(i) for i in input().split(".")]
+
+
+def out(n1, n2, n3, n4):
+    if (n1 == 0) and (n2 == 0) and (n3 == 0) and (n4 == 0):
+        print("False")
+    elif (n1 == 255) and (n2 == 255) and (n3 == 255) and (n4 == 255):
+        print("False")
+    else:
+        print("True")
+
+
+if (n1 > 255) or (n2 > 255) or (n3 > 255) or (n4 > 255):
+    print("False")
+else:
+    out(n1, n2, n3, n4)
+
 ```
 
-[Решение](/Conditions_of_expression/Checking_ip.py)
 
-> Задача
+
 
       Вашей программе на вход даются 3 строки. Выведите обратно строку наименьшей длины. В случае, если длина у нескольких строк совпадает – выведите ту, которая была введена позже остальных.
 
       Напоминаем, что посчитать длину строки можно с помощью len.
 
 ```python
+(
+    str1,
+    str2,
+    str3,
+) = (
+    str(input()),
+    str(input()),
+    str(input()),
+)
+if len(str1) == len(str2) and (len(str2) != len(str3)):
+    print(str2)
+elif (len(str1) == len(str3)) or (len(str2) == len(str3)):
+    print(str3)
+else:
+    print(min(str1, str2, str3, key=len))  # Вывод самой минимальной строки.
 ```
 
-[Решение](/Conditions_of_expression/CountingStringLengths.py)
 
 > Match/case работает в версиях от python3.10
 
-      >Задача
+    
       Давайте напишем своего бота-собеседника. Ваша задача написать программу, которая принимает одну строку на вход. И по ней определяет, что нужно ответить человеку.
 
       Бот должен знать команды:
@@ -538,11 +603,18 @@ checking_numbers(password, login)
       Рекомендуем использовать знания, полученные в этой главе, например, моржовые операторы и match.
 
 ```python
+match dialogue:= str(input()):
+    case 'Привет':
+        print('Привет!')
+    case 'Как дела?': 
+        print('Все классно!')    
+    case 'Пока':
+        print('До скорой встречи!')
+    case _:
+        print('Прости, я еще не знаю таких фраз :(')
 ```
 
-[Решение](./Conditions_of_expression/match_case.py)
 
-> Задача 
 
       Представим, что вы программируете hr-сервис по работе с вакансиями. Обычно в языках программирования есть множество различных фреймворков, и каждый из них относится к определенному языку программирования и специальности. Напишите программу, которая по названию фреймворка будет определять язык и профессию человека.
 
@@ -553,31 +625,43 @@ checking_numbers(password, login)
       В случае если фреймворк еще не известен – выведете "модель еще не обучена"
 
 ```python
+match vacancies := str(input()):
+    case 'Flask' |'Django' |'Fast-API': #Python
+        print('Python','(',vacancies,')',',Backend-dev', sep='')
+    case 'Angular'|'React'|'Vue':
+        print('JavaScript/TypeScript','(', vacancies,')',',Frontend-dev', sep='')
+    case 'Flutter' |'React Native':
+        print( 'JavaScript','(',vacancies,')',',Cross-Mobile-dev', sep='')
+    case 'Pandas' |'skit-learn'|'keras':
+        print('Python','(',vacancies,')',',Data-Scientist', sep='')
+    case _:
+        print("модель еще не обучена")
 ```
 
-[Решиение](./Conditions_of_expression/vacancies.py)
 
 #### Циклы.
 
-> Задача 
 
       Допишите программу так, чтобы она выводила получаемый на вход список чисел из переменной a.
 
 ```python
+str1 = str(input()).split()
+for i in str1:
+    print(i)
+
 ```
 
-[Решение](./cycle/brute_force_output.py)
 
-> Задача
 
       Напишите программу, которая перебирает значения переменной values и печатает их с восклицательными знаками.
 
 ```python
+values = str(input()).split()
+for i in values:
+    print(i + "!")
 ```
 
-[Решение](./cycle/String_addition.py)
 
-> Задача
 
       Вашей программе на вход поступает два числа a и b. Выведите числа от a до b включительно, чередуя у них знак. Например, для чисел 5 и 10 нужно вывести: 
       
@@ -590,40 +674,83 @@ checking_numbers(password, login)
             -10
 
 ```python
+starting, ending = int(input()), int(input())
+num=0
+for i in range(starting,ending+1):
+    num+=1
+    if (num%2)==0:
+        print(i*(-1))
+    else:
+        print(i)
+
 ```
 
-[Решение](./cycle/SequenceOfNumbers.py)
 
 ![Задача](./image/photo_2023-09-27_02-27-37.jpg)
 
 ```python
+num = int(input())
+num_out=1
+for i in range(1,num+1):
+    num_out*=i
+print(num_out)
+
+
 ```
 
-[Решение](./cycle/FactorialOfTheNumber.py)
 
 ![Задача](./image/2023-09-27_02-51-10.jpg)
 
 ```python
+num = int(input())
+k = -1
+for i in range(num):
+    k += 1
+    for j in range(num, k, -1):
+        print(j, end=" ")
+
+    print()
+
 ```
 
-[Решение](./cycle/Pyramid-Conclusion.py)
+
 
       
 
 ![Задача](./image/photo_2023-09-28_23-32-15.jpg)
 
 ```python
+
+num = int(input())
+k = -1
+for i in range(num):
+    k += 1
+    for j in range(num, k, -1):
+        print(j, end=" ")
+
+    print()
+
 ```
 
-[Решение](./cycle/sequence_OfNumbers.py)
 
 ![Задача](./image/photo_2023-10-03_11-07-12.jpg)
 
 ```python
+
+n = int(input())
+
+for i in range(n):
+    if i % 2 == 0:
+        for j in range(1, n+1):
+            print(j, end=' ')
+    else:
+        for j in range(n, 0, -1):
+            print(j, end=' ')
+    print()
+
 ```
 
-[Решение](./cycle/sequence_OfNumbers2.py)
-
+!!!!!!!!!!!!!!!!!!!!!!!!!
 #### Цикл с условием.
 
 ![Задача](./image/photo_2023-10-16_00-29-40.jpg)
