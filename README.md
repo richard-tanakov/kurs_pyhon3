@@ -388,7 +388,6 @@ print(5 <= num < 10 or 200 >= num > 101)
 ```
 ---
 
-> Задача. 
 
       Напишите программу, которая получает на вход целое число n и выводит 5 строк содержащих True или False с ответами на эти вопросы:
 
@@ -403,11 +402,23 @@ print(5 <= num < 10 or 200 >= num > 101)
       5. Является ли число трехзначным?
 
 ```python
+num = int(input())
+
+
+print((num % 2) == 0)  # Четное или не четное
+print(num > 0)  # Положительное или отрицательное
+print(-5 <= num <= 5)  # Отрезок
+print((num % 3 or num % 4) == 0 and num % 7 != 0)
+
+if (
+    num * (-1)
+) > 0:  # Если число отричательное, умножаем на -1, чтобы получить положительное
+    print((len(str(num * (-1)))) == 3)
+else:
+    print((len(str(num))) == 3)
 ```
+---
 
-[Решение](/Conditions_of_expression/Characteristics_of_the_number.py)
-
-> Задача. 
 
       Напишите программу, которая получает на вход две строки – логин и пароль пользователя. Определите верная ли это комбинация используя следующие условия:
 
@@ -419,9 +430,28 @@ print(5 <= num < 10 or 200 >= num > 101)
 [Решение](/Conditions_of_expression/Len_login.py)
 
 ```python
-```
+login = input()
+password = input()
 
-> Задача. 
+
+def checking_numbers(password, login):
+    if (login.isdigit() == True) and (password.isdigit() == True):
+        print(
+            len(str(login)) > 4
+            and len(str(password)) > 8
+            and not int(login) == int(password)
+        )
+    else:
+        login = len(str(login))
+        password = len(str(password))
+        print(login > 4 and password > 8 and not login == password)
+
+
+checking_numbers(password, login)
+
+```
+---
+
 
       
 
